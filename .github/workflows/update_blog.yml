@@ -18,8 +18,8 @@ jobs:
 
     - name: Push changes
       run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git config --global user.name 'GoldenPearls'
+        git config --global user.email 'prettylee620@naver.com'
         git push https://${{ secrets.GH_PAT }}@github.com/GoldenPearls/velog.git #자신의 깃허브명으로 바꿔야 함
 
     - name: Set up Python
